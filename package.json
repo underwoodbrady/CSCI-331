@@ -1,0 +1,23 @@
+{
+  "name": "csci-331",
+  "version": "0.1.0",
+  "description": "Mern stack project for CSCI 331 at Montana State",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/underwoodbrady/CSCI-331.git"
+  },
+  "author": "Brady Underwood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/underwoodbrady/CSCI-331/issues"
+  },
+  "homepage": "https://github.com/underwoodbrady/CSCI-331#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node": "^19.0.0"
+  }
+}
