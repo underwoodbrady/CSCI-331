@@ -1,45 +1,49 @@
-:root{
+:root {
     --primary-color: #f25858;
+    --primary-faded: #f57575;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
     overflow: hidden;
-    background-color: var(--primary-color);
+    background: linear-gradient(var(--primary-color),var(--primary-faded));
     display: flex;
     width: 100vw;
-    height:100vh;
+    height: 100vh;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-h1,h2,p{
+h1,
+h2,
+p {
     text-align: center;
-    color:white;
+    color: white;
 }
 
-h1{
+h1 {
     font-size: 4em;
     font-weight: 500;
 }
 
-h2{
-    margin:16px 0;
+h2 {
+    margin: 16px 0;
     font-weight: 400;
 }
 
-header, footer{
+header,
+footer {
     margin-top: auto;
 }
 
-p{
+p {
     font-weight: 300;
     letter-spacing: 0.05em;
     text-decoration: underline;
